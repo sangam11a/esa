@@ -1,0 +1,128 @@
+/* Reset and basic styling */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0px 0px;
+  padding: 0px;
+  width:100vw;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Header Styles */
+/* header {
+  background-color: #ffffff;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+} */
+
+/* Navigation Styles */
+nav {
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+  margin: 0 10px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Hero Section Styles */
+#hero {
+  background-image: url('path/to/your-image.jpg');
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  color: #fff;
+  padding: 100px 0;
+}
+#hero h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+#hero p {
+  font-size: 1.2em;
+}
+.app-container {
+  width: 100vw; /* Set the width of the entire app to 100vw */
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  /* Adjustments for smaller screens */
+  header {
+    padding: 10px 0;
+  }
+  #hero {
+    padding: 80px 0;
+  }
+  #hero h1 {
+    font-size: 2.5em;
+  }
+  #hero p {
+    font-size: 1em;
+  }
+  nav ul li {
+    margin: 0 5px;
+  }
+}
+footer{
+  color: black;
+  font-weight: 520;
+  background-color:white;
+  padding:1px 2px;
+}
+
+.contact{
+  /* margin-top:15px; */
+  min-height:75vh;
+  /* padding-top:10px;
+  padding-bottom:25px; */
+  background-color: black;
+  color:honeydew;
+}
+
+#goal{
+  color:white;
+  position: absolute;
+  bottom:100px;
+  left:60%;
+  font-weight: 600;
+  font-size: xx-large;
+  line-height: 1.2;
+}
+
+/* Additional Media Queries for even smaller screens if needed */
+@media (max-width: 480px) {
+  /* Adjustments for extra small screens */
+  #hero {
+    padding: 60px 0;
+  }
+  #hero h1 {
+    font-size: 2em;
+  }
+  #hero p {
+    font-size: 0.9em;
+  }
+  nav ul li {
+    margin: 0 3px;
+  }
+}
+.fa-phone{
+  color:white;
+  margin-left:10px;
+}
+
+.product,.contact{
+  padding-bottom:7vh;
+  padding-top:6vh;
+  /* background-color: black; */
+}

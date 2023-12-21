@@ -1,0 +1,86 @@
+/* ContactUs.css */
+label{
+    color:black;
+    
+}
+
+.contact-us-container {
+    width: 30vw;
+    margin: 0 auto;
+    padding: 20px 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    background-color: #fff;
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+
+  input{
+    width:80%;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  textarea {
+    /* width: 90%; */
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  textarea {
+    resize: vertical;
+  }
+  
+  
+  button:hover {
+    background-color: #000000;
+    
+    color:white;
+  }
+  
+
+
+  /* ContactUs.css */
+
+/* ... (other styles) */
+
+input[type='text'],
+input[type='email'],
+textarea {
+  width: 80%;
+  padding: 10px;
+  border: 1px solid #5c5454;
+  border-radius: 4px;
+  transition: all 0.3s ease; /* Adding transition effect */
+}
+
+
+input[type='text']:focus,
+input[type='text']:hover,
+input[type='email']:focus,
+input[type='email']:hover,
+textarea:focus,
+textarea:hover {
+  border-color: #007bff; /* Change border color on focus or hover */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Adding box-shadow on focus or hover */
+}
+
+button {
+    display: block;
+    width:100%; 
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 4px;
+    background: #0d4781;
+    color: #000000;
+    cursor: pointer;
+    /* border-color: black; */
+  }
+  
