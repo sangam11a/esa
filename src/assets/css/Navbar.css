@@ -23,6 +23,7 @@ position: relative;;
 
 .logo a {
   /* color: #333; */
+  /* max-height:3vh; */
   color:white;
   text-decoration: none;
   font-weight: bold;
@@ -114,4 +115,12 @@ position: relative;;
   .nav-links li {
     margin: 20px 0;
   }
+}
+
+#logo>img{
+  height:40px;
+  width:40px;
+  position:absolute;
+  top:0;
+  left:0;
 }

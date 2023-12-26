@@ -12,7 +12,10 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="container">
         <div className="logo">
-          <a href="/">esa</a>
+          <a href="/">
+            {/* <img id='logo' style={{height:80,width:10}}  src="src\assets\images\logo.png" alt="Logo loading failed" /> */}
+            esa
+          </a>
         </div>
         <div className={isOpen ? 'menu-btn open' : 'menu-btn'} onClick={toggleNavbar}>
           <div className="menu-btn_burger"></div>
