@@ -1,0 +1,43 @@
+.card1{
+    
+    width:8.9cm;
+    height:5.7cm;
+    border-radius: 10px;
+    position : relative;
+}
+
+.logo1{
+    background-color: white;
+    border-radius: 50%;
+    object-fit: contain;
+    padding:5px;
+    position:absolute;
+    left:0.7cm;
+    top:0.7cm;
+    width:2.5cm;
+    height:2.5cm;
+}
+
+#displayText{
+    position: absolute;
+    bottom:0.5cm;
+    left:0.5cm;
+    font-weight:550;
+}
+
+.colorChoices{
+    background-color: blue;
+    height:0.5cm;
+    width:0.5cm;
+}
+
+.color-palette {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .color-palette td {
+    width: 25px; /* Adjust this according to your design */
+    height: 25px; /* Adjust this according to your design */
+  }
+  
