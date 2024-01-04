@@ -41,3 +41,23 @@
     height: 25px; /* Adjust this according to your design */
   }
   
+  @media screen and (max-width: 1900px) and (min-width: 801px){
+  .cardColor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  }
+
+  @media screen and (max-width: 800px) and (min-width: 650px){
+    .cardColor{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+    }
+  }
+
+  @media screen and (max-width: 650px) and (min-width: 350px){
+    .cardColor{
+        display:grid;
+        grid-template-columns: 1fr ;
+    }
+  }

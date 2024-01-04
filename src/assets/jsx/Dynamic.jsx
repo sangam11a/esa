@@ -160,6 +160,7 @@ function Dynamic() {
         {file && <Draggable><img src={file} alt="Uploaded" className="logo1" style={{ background: imageBackgroundColor }} /></Draggable>}
       </div>
       <button onClick={downloadImage}>Download Image</button>
+      <div className="cardColor">
       <section>
         <h3>Text Color Palette:</h3>
         <table>
@@ -184,6 +185,10 @@ function Dynamic() {
           </tbody>
         </table>
       </section>
+      <section>
+          
+      </section>
+      </div>
     </>
   );
 }
