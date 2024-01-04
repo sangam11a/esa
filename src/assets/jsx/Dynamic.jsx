@@ -152,8 +152,9 @@ function Dynamic() {
     <>
       <form action="">
         <h2>Add Image:</h2>
+        <input type="file" onChange={handleChange} /><br/>
+        <h2>Add Text</h2>
         <input type="text" name="name" id="name" onChange={handleName} />
-        <input type="file" onChange={handleChange} />
       </form>
       <div className="card1" id="card1" style={{ background: generateGradient(cardColorName) }}>
         {name && <Draggable><div id="displayText" style={{ color: displayTextColor }}>{name}</div></Draggable>}
