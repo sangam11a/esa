@@ -1,5 +1,5 @@
 {
-  "homepage":"https://sangam11a.github.io/esa",
+  "homepage": "https://sangam11a.github.io/esa",
   "name": "esa",
   "private": true,
   "version": "0.0.0",
@@ -13,8 +13,12 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "axios": "^1.6.3",
+    "downloadjs": "^1.4.7",
+    "html2canvas": "^1.4.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "react-draggable": "^4.4.6"
   },
   "devDependencies": {
     "@types/react": "^18.2.43",

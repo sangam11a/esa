@@ -5,6 +5,7 @@ import Navbar from './Navbar';
 import Card from './card';
 import FirstImg from './FirstImg';
 import ContactUs from './Contact';
+import Dynamic from './Dynamic';
 
 function App() {
   return (
@@ -30,7 +31,9 @@ function App() {
           </center>
           <ContactUs/>
         </section>
-        
+        <section>
+          <Dynamic/>
+        </section>
       </main>
       <footer>
        <center>
