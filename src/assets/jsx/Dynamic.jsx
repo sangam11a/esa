@@ -125,16 +125,22 @@ function Dynamic() {
     <>
       <form action="">
         <section className="uploads">
-          <h2>Add Background Image</h2>
-          <input type="file" onChange={handleBackgroundChange} /><br />
-          <h2>Add Logo:</h2>
-          <input type="file" ref={fileInputRef} onChange={handleChange} /><br />
-          <h2>Add Text</h2>
-          <input type="text" name="name" id="name" onChange={handleName} />
+          <div>
+            <h2>Add Background Image</h2>
+            <input type="file" onChange={handleBackgroundChange} /><br />
+          </div>
+          <div>
+            <h2>Add Logo:</h2>
+            <input type="file" ref={fileInputRef} onChange={handleChange} /><br />
+          </div>
+          <div>
+            <h2>Add Text</h2>
+            <input type="text" name="name" id="name" onChange={handleName} />
+          </div>
         </section>
       </form>
       {!cardColorName ? (
-        <div className="card1" id="card1" style={{ background: `url(${backgroundImage})`, backgroundSize:'contain' }}>
+        <div className="card1" id="card1" style={{ background: `url(${backgroundImage})`, backgroundSize:'cover',width: '8.9cm',height: '5.7cm' }}>
           {name && <Draggable bounds="parent"><div id="displayText" style={{ color: displayTextColor }}>{name}</div></Draggable>}
           {file && <Draggable bounds="parent"><img src={file} alt="Uploaded" className="logo1" style={{ background: imageBackgroundColor }} /></Draggable>}
         </div>
@@ -146,12 +152,6 @@ function Dynamic() {
         </div>
       )
       }
-      {/* {cardColorName && (
-        <div className="card1" id="card1" style={{ background: generateGradient(cardColorName) }}>
-          {name && <Draggable><div id="displayText" style={{ color: displayTextColor }}>{name}</div></Draggable>}
-          {file && <Draggable><img src={file} alt="Uploaded" className="logo1" style={{ background: imageBackgroundColor }} /></Draggable>}
-        </div>
-      )} */}
       <button onClick={downloadImage}>Download Image</button>
       <div className="cardColor">
         <section>

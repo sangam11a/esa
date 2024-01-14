@@ -36,16 +36,22 @@
     flex-wrap: wrap;
   }
   
-  .color-palette td {
-    width: 25px; /* Adjust this according to your design */
-    height: 25px; /* Adjust this according to your design */
-  }
+.color-palette td {
+  width: 25px; /* Adjust this according to your design */
+  height: 25px; /* Adjust this according to your design */
+}
+
+.uploads{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
   
   @media screen and (max-width: 1900px) and (min-width: 801px){
   .cardColor{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  
   }
 
   @media screen and (max-width: 800px) and (min-width: 650px){
@@ -61,3 +67,4 @@
         grid-template-columns: 1fr ;
     }
   }
+
